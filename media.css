@@ -1,0 +1,112 @@
+@media screen and (max-width: 1374px) {
+
+    .leftSideTop {
+        width: 100%;
+        border-right: none;
+        position: static;
+    }
+
+    .post {
+        margin-left: 0;
+    }
+
+    #postContainer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .rightSideTop {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1144px) {
+    .leftSideTop {
+        width: 100%;
+        border-right: none;
+        position: static;
+        height: auto;
+    }
+
+    .siteContent {
+        flex-direction: column;
+    }
+
+    #postContainer {
+        margin-left: 10px;
+    }
+
+    .rightContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+    .leftSideTop {
+        width: 100%;
+        border-right: none;
+        position: static;
+        height: auto;
+    }
+
+    #postContainer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .rightSideTop {
+        margin-left: 0;
+    }
+
+    #postContainer {
+        margin-left: 10px;
+    }
+
+    .rightContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 589px) {
+    .leftSideTop {
+        width: 100%;
+        border-right: none;
+        position: static;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .postImages {
+        width: 200px;
+        height: 400px;
+        padding-left: 30px;
+    }
+
+    input {
+        width: 160px;
+    }
+
+    .commentContainer {
+        width: 230px;
+    }
+
+    #postContainer {
+        margin-left: 10px;
+    }
+
+    .rightContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
